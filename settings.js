@@ -3,23 +3,23 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "923192173398"
-global.ownername = "🐛 MR WASI "
+global.ownernomer = "923247128667"
+global.ownername = "🐛 ABBAS BOT "
 global.ytname = "YT: Dont have"
 global.socialm = "GitHub: private"
-global.location = "Pakistan, Lahore"
+global.location = "Pakistan, Peshawar"
 
-global.ownernumber = '923347748038'  //creator number
-global.ownername = ' MR WASI ' //owner name
-global.botname = 'WASI TECH BUG BOT ' //name of the bot
+global.ownernumber = '923247128667'  //creator number
+global.ownername = ' ABBAS BOT ' //owner name
+global.botname = 'ABBAS BUG BOT ' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = 'WASI'
+global.author = 'ABBAS'
 
 //console view/theme
 global.themeemoji = '🪀'
-global.wm = "WASI TECH"
+global.wm = "ABBAS BOT"
 
 //theme link
 global.link = 'https://whatsapp.com'
@@ -62,7 +62,7 @@ global.mess = {
     error: 'Error!',
 }
 
-global.thumb = fs.readFileSync('./Wasimedia/thumb.jpg')
+global.thumb = fs.readFileSync('./abbasbot/thumb.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
